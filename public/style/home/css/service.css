@@ -1,0 +1,499 @@
+/* ==============================================================================
+currency style
+================================================================================*/
+
+@font-face {
+    font-family: 'myfont-Medium';
+    src: url("../fonts/PingFang Medium_downcc.otf");
+}
+
+@font-face {
+    font-family: 'myfont-Semibold';
+    src: url("../fonts/PingFang SC Semibold.ttf");
+}
+
+@font-face {
+    font-family: 'myfont-Regular';
+    src: url("../fonts/PingFangSCRegular.ttf");
+}
+
+@font-face {
+    font-family: 'myfont-GrandeBold';
+    src: url("../fonts/Lucida Grande Bold.ttf");
+}
+
+.btn-more {
+    color: #FFFFFF;
+    background-color: #D1A247;
+    border: none;
+}
+
+.btn-more:hover,
+.btn-more:focus,
+.btn-more:active,
+.btn-more.active,
+.open .dropdown-toggle.btn-more {
+    color: #FFFFFF;
+    background-color: #D1A247;
+    border: none;
+}
+
+.btn-more:active,
+.btn-more.active,
+.open .dropdown-toggle.btn-more {
+    background-image: none;
+}
+
+.btn-more.disabled,
+.btn-more[disabled],
+fieldset[disabled] .btn-more,
+.btn-more.disabled:hover,
+.btn-more[disabled]:hover,
+fieldset[disabled] .btn-more:hover,
+.btn-more.disabled:focus,
+.btn-more[disabled]:focus,
+fieldset[disabled] .btn-more:focus,
+.btn-more.disabled:active,
+.btn-more[disabled]:active,
+fieldset[disabled] .btn-more:active,
+.btn-more.disabled.active,
+.btn-more[disabled].active,
+fieldset[disabled] .btn-more.active {
+    background-color: #D1A247;
+    border: none;
+}
+
+.btn-more .badge {
+    color: #D1A247;
+    background-color: #FFFFFF;
+}
+
+
+body{
+    font-family: myfont-Medium;
+    overflow-x: hidden;
+}
+/* ==============================================================================
+Navbar style
+================================================================================*/
+.my-navbar{
+    font-size:1.1rem;
+    padding:0;
+    background-color: #000000!important;
+}
+
+.navbar-brand{
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    top: 1.3rem;
+    z-index: 66;
+    background-color: #000000;
+}
+
+.navbar-brand img{
+    height: 4.375rem;
+    padding-left: .4rem;
+    padding-bottom: .2rem;
+}
+
+.navbar-nav li{
+    padding-right: .4rem;
+}
+
+.navbar-dark .navbar-nav li:not(.active) .nav-link{
+    font-size: 1.125rem;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-item > span{
+    height: 5rem;
+    line-height: 5rem;
+    padding-left: 4.5rem;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    height: 5rem;
+    line-height: 4rem;
+}
+
+.navbar-dark .navbar-nav li.active > a,
+.navbar-dark .navbar-nav .nav-link:hover{
+    font-size: 1.125rem;
+    color: #FFFFFF!important;
+    border-bottom: .25rem solid #D1A247;
+    text-align: center;
+}
+
+/* ==============================================================================
+Jumbotron style
+================================================================================*/
+#home .jumbotron-fluid{
+    height: 30rem;
+    max-width:1980px;
+    margin:0 auto;
+}
+
+#home .jumbotron-fluid .container-fluid{
+    max-width:1366px;
+    margin-top:6rem;
+}
+
+#home .jumbotron-fluid h1{
+    font-family: myFont-Semibold;
+    font-size: 2.6rem;
+    color: #FFFFFF;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+
+#home .jumbotron-fluid p{
+    opacity: 0.8;
+    font-family: myFont-Regular;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+
+/* ==============================================================================
+Section style
+================================================================================*/
+/* ==============================================================================
+service style
+================================================================================*/
+#service{
+    margin-top:3rem;
+}
+
+#service .service-leader,#service .service-card{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+#service .service-card{
+    margin-top: 3rem;
+}
+
+#service .service-tile h2{
+    font-family: myfont-Semibold;
+    font-weight: 200;
+    font-size: 1.8rem;
+    color:#000000;
+}
+
+#service .service-tile span{
+    display:inline-block;
+    width: 3.12rem;
+    height: .2rem;
+    background-color: #E9C37A;
+}
+
+#service .service-tile-content p{
+    font-family: myfont-Regular;
+    line-height: 1.8rem;
+    color: gray;
+}
+
+#service .my-card{
+    height: 23.8rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    position: relative;
+    background: url(../images/card.png) no-repeat left;
+    background-size:100% 100%;
+    border-radius: 2px;
+    box-shadow: .25rem .25rem .6rem #000000;
+}
+
+#service .my-card .my-card-warpper{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: linear-gradient(-177deg, rgba(0,0,0,0.00) 68%, #000000 100%);
+    border-radius: 2px;
+}
+
+#service .my-card .my-card-content{
+    position: absolute;
+    bottom: 1.5rem;
+    z-index: 20;
+    margin: 0 1rem;
+}
+
+#service .my-card .my-card-content h4{
+    font-family: myfont-Semibold;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+#service .my-card .my-card-content p{
+    opacity: 0.64;
+    font-family: myfont-Regular;
+    color: #FFFFFF;
+    font-size: 0.87rem;
+}
+
+#service .my-card .my-card-content .my-card-date{
+    display: none;
+}
+
+#service .my-card span{
+    display: none;
+}
+
+#service .my-card-active h4{
+    text-align: center;
+}
+
+#service .my-card-active .my-card-content{
+    position: absolute;
+    top: 5rem;
+    left: 10%;
+    right: 10%;
+    z-index: 20;
+}
+
+#service .my-card-active .my-card-content .my-card-date{
+    text-align:center;
+    display: block;
+}
+
+#service .my-card-active span.my-card-icon{
+    display: block;
+    width: 1rem;
+    height: 1.8rem;
+    border: .125rem solid rgba(255,255,255,0.6);
+    border-radius: 40%;
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+}
+
+#service .my-card-active span.my-card-icon >span{
+    display: block;
+    width: 2px;
+    height: 2px;
+    border:3px solid rgba(255,255,255,0.6);
+    border-radius: 50%;
+    margin:.3rem auto 0;
+}
+
+
+
+/* ==============================================================================
+Contact Us style
+================================================================================*/
+#contact{
+    margin-top:3rem;
+}
+
+#contact .contact-warpper{
+    max-width:1980px;
+    background: url(../images/footer-bg.png) no-repeat center;
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+
+#contact .contact-section{
+    max-width:1360px;
+    margin:0 auto;
+    padding:8rem 0 0 0;
+}
+
+#contact .contact-row{
+    margin-left:6rem;
+}
+
+#contact .contact-section h3{
+    font-family: myFont-Medium;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#contact .contact-section form{
+    width: 28rem;
+}
+
+#contact .contact-section form > div >input,#contact .contact-section form > div >textarea{
+    border-radius: 0;
+    background-color: rgba(30,30,30,0.5);;
+    border-color:#2D2A29;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+#contact .contact-section form > div >textarea{
+    resize: none;
+}
+
+#contact .contact-section form button{
+    width:100%;
+    border-radius: 1.56rem;
+    height: 3.12rem;
+}
+
+#contact .contact-info{
+    line-height: 3rem;
+    margin-top:5rem;
+}
+
+#contact .contact-info h1{
+    font-family: myfont-Regular;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+#contact .contact-info-text{
+    margin-bottom: 3rem;
+}
+
+#contact .contact-info{
+    color:#ffffff;
+}
+
+#contact span.contact-info-icon{
+    display:inline-block;
+    width: 1rem;
+    height: .3rem;
+    background-color: #ffffff;
+    margin-right:1rem;
+    margin-bottom:.2rem;
+}
+
+#contact div.contact-info-text{
+    color:#DC9214;
+}
+
+#contact div.contact-info-text .contact-info-icon{
+    background:#DC9214;
+}
+
+#contact .contact-weixin{
+    margin-top:2rem;
+}
+
+#contact .contact-weixin img{
+    margin-right: 3rem;
+}
+
+#contact .contact-footer{
+    margin-top: 6rem;
+    font-family: myFont-Regular;
+    font-size: .875rem;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================
+Media Query
+================================================================================*/
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .my-navbar{
+        padding:0 5rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .my-navbar{
+        padding:0 5rem;
+    }
+
+    #design .design-img img{
+        margin-bottom: 0;
+    }
+
+    #design .design-img .design-img-col2{
+        margin-bottom: 2.3rem;
+    }
+
+    #design .design-img .design-img-left-text{
+        position: absolute;
+        left:1rem;
+        bottom: 0;
+    }
+
+    #design .design-img .design-img-right-text{
+        position: absolute;
+        right:1rem;
+        bottom: 0;
+    }
+
+    #design .design-img-active .design-img-out div{
+        width:12.5rem;
+        height:9.3rem;
+        position: absolute;
+        top:20%;
+        left:25%;
+        font-family: myFont-Regular;
+        font-size: 24px;
+        color: #000000;
+        text-align: center;
+        line-height: 5rem;
+    }
+
+    #design .design-img-active .design-img-col4 div{
+        width:12.5rem;
+        height:9.3rem;
+        position: absolute;
+        top:40%;
+        left:25%;
+        font-family: myFont-Regular;
+        font-size: 24px;
+        color: #000000;
+        text-align: center;
+        line-height: 5rem;
+    }
+
+    #design .design-img-active .design-img-col8  div{
+        width:12.5rem;
+        height:9.3rem;
+        position: absolute;
+        top:26%;
+        font-family: myFont-Regular;
+        font-size: 24px;
+        color: #000000;
+        text-align: center;
+        line-height: 5rem;
+        margin-left:8rem;
+    }
+
+    #contact .contact-info{
+        line-height: 3rem;
+        margin-top:0;
+    }
+
+    #contact{
+        margin-top:3rem;
+    }
+
+}
+
+
+@media (min-width: 1325px) {
+    .my-navbar{
+        padding:0 7rem;
+    }
+}
+

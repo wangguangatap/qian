@@ -1,0 +1,539 @@
+/* ==============================================================================
+currency style
+================================================================================*/
+
+@font-face {
+    font-family: 'myfont-Medium';
+    src: url("../fonts/PingFang Medium_downcc.otf");
+}
+
+@font-face {
+    font-family: 'myfont-Semibold';
+    src: url("../fonts/PingFang SC Semibold.ttf");
+}
+
+@font-face {
+    font-family: 'myfont-Regular';
+    src: url("../fonts/PingFangSCRegular.ttf");
+}
+
+@font-face {
+    font-family: 'myfont-GrandeBold';
+    src: url("../fonts/Lucida Grande Bold.ttf");
+}
+
+.btn-more {
+    color: #FFFFFF;
+    background-color: #D1A247;
+    border: none;
+}
+
+.btn-more:hover,
+.btn-more:focus,
+.btn-more:active,
+.btn-more.active,
+.open .dropdown-toggle.btn-more {
+    color: #FFFFFF;
+    background-color: #D1A247;
+    border: none;
+}
+
+.btn-more:active,
+.btn-more.active,
+.open .dropdown-toggle.btn-more {
+    background-image: none;
+}
+
+.btn-more.disabled,
+.btn-more[disabled],
+fieldset[disabled] .btn-more,
+.btn-more.disabled:hover,
+.btn-more[disabled]:hover,
+fieldset[disabled] .btn-more:hover,
+.btn-more.disabled:focus,
+.btn-more[disabled]:focus,
+fieldset[disabled] .btn-more:focus,
+.btn-more.disabled:active,
+.btn-more[disabled]:active,
+fieldset[disabled] .btn-more:active,
+.btn-more.disabled.active,
+.btn-more[disabled].active,
+fieldset[disabled] .btn-more.active {
+    background-color: #D1A247;
+    border: none;
+}
+
+.btn-more .badge {
+    color: #D1A247;
+    background-color: #FFFFFF;
+}
+
+
+body{
+    font-family: myfont-Medium;
+    overflow-x: hidden;
+}
+/* ==============================================================================
+Navbar style
+================================================================================*/
+.my-navbar{
+    font-size:1.1rem;
+    padding:0;
+    background-color: #000000!important;
+}
+
+.navbar-brand{
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    top: 1.3rem;
+    z-index: 66;
+    background-color: #000000;
+}
+
+.navbar-brand img{
+    height: 4.375rem;
+    padding-left: .4rem;
+    padding-bottom: .2rem;
+}
+
+.navbar-nav li{
+    padding-right: .4rem;
+}
+
+.navbar-dark .navbar-nav li:not(.active) .nav-link{
+    font-size: 1.125rem;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-item > span{
+    height: 5rem;
+    line-height: 5rem;
+    padding-left: 4.5rem;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    height: 5rem;
+    line-height: 4rem;
+}
+
+.navbar-dark .navbar-nav li.active > a,
+.navbar-dark .navbar-nav .nav-link:hover{
+    font-size: 1.125rem;
+    color: #FFFFFF!important;
+    border-bottom: .25rem solid #D1A247;
+    text-align: center;
+}
+
+/* ==============================================================================
+Jumbotron style
+================================================================================*/
+#home .jumbotron-fluid{
+    height: 30rem;
+    max-width:1980px;
+    margin:0 auto;
+}
+
+#home .jumbotron-fluid .container-fluid{
+    max-width:1366px;
+    margin-top:6rem;
+}
+
+#home .jumbotron-fluid h1{
+    font-family: myFont-Semibold;
+    font-size: 2.6rem;
+    color: #FFFFFF;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+
+#home .jumbotron-fluid p{
+    opacity: 0.8;
+    font-family: myFont-Regular;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
+
+/* ==============================================================================
+Section style
+================================================================================*/
+#design{
+    max-width:1980px;
+    margin:0 auto;
+}
+
+#design .container-fluid{
+    max-width:1366px;
+    margin:0 auto;
+}
+
+#design .design-left{
+    padding-top:6rem;
+}
+
+#design .design-left h4{
+    font-family: myFont-Semibold;
+    font-size: 1.25rem;
+    color: #DC9214;
+}
+
+#design .design-left h3{
+    font-family: myFont-Semibold;
+    font-size: 2rem;
+    color: #313131;
+}
+
+#design .design-right{
+    padding-top:10rem;
+}
+
+#design .design-right span{
+    margin-left:2rem;
+    font-weight: bold;
+}
+
+#design .design-right span:hover{
+    cursor: pointer;
+    color: #DC9214;
+    font-weight: bold;
+}
+
+#design .design-img{
+    margin-top:3rem;
+}
+
+#design .design-img img{
+    width:100%;
+    height:100%;
+    margin-bottom:1rem;
+}
+
+#design .design-img .design-img-col{
+    position: relative;
+    font-family: myFont-Semibold;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+#design .design-img .design-img-left-text{
+    position: absolute;
+    left:1rem;
+    bottom: 2rem;
+}
+
+#design .design-img .design-img-right-text{
+    position: absolute;
+    right:1rem;
+    bottom:2rem;
+}
+
+#design .design-img-active .design-img-out{
+    position: absolute;
+    top:0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/product-out.png) no-repeat center center;
+    margin:0 auto;
+    -webkit-animation-name: sport;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+    transform: translateY(0px);
+}
+
+@keyframes sport{
+    0% {transform:translateY(100px);}
+    10% {transform:translateY(90px);}
+    20% {transform:translateY(80px);}
+    30% {transform:translateY(70px);}
+    40% {transform:translateY(60px);}
+    50% {transform:translateY(50px);}
+    60% {transform:translateY(40pxx);}
+    70% {transform:translateY(30px);}
+    80% {transform:translateY(20px);}
+    90% {transform:translateY(10px);}
+    100% {transform:translateY(0px);}
+}
+
+#design .design-img-active .design-img-out div{
+    width:12.5rem;
+    height:9.3rem;
+    position: absolute;
+    top:30%;
+    left:35%;
+    font-family: myFont-Regular;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    line-height: 5rem;
+}
+
+#design .design-img-active .design-img-col4 div{
+    width:12.5rem;
+    height:9.3rem;
+    position: absolute;
+    top:40%;
+    left:35%;
+    font-family: myFont-Regular;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    line-height: 5rem;
+}
+
+
+#design .design-img-active .design-img-col8  div{
+    width:12.5rem;
+    height:9.3rem;
+    position: absolute;
+    font-family: myFont-Regular;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    line-height: 5rem;
+}
+
+
+#design .design-img-active .design-img-out div img{
+    width:25px;
+    height:25px;
+}
+
+#design .design-img-active .design-img-out div h4{
+    text-decoration: underline;
+}
+
+#design .design-img-active .design-img-out{
+    display:block;
+}
+
+#design .design-img-active h3{
+    display:none;
+}
+
+
+#design .design-img-out{
+    display: none;
+}
+
+/* ==============================================================================
+Contact Us style
+================================================================================*/
+#contact{
+    margin-top:3rem;
+}
+
+#contact .contact-warpper{
+    max-width:1980px;
+    background: url(../images/footer-bg.png) no-repeat center;
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+
+#contact .contact-section{
+    max-width:1360px;
+    margin:0 auto;
+    padding:8rem 0 0 0;
+}
+
+#contact .contact-row{
+    margin-left:6rem;
+}
+
+#contact .contact-section h3{
+    font-family: myFont-Medium;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#contact .contact-section form{
+    width: 28rem;
+}
+
+#contact .contact-section form > div >input,#contact .contact-section form > div >textarea{
+    border-radius: 0;
+    background-color: rgba(30,30,30,0.5);;
+    border-color:#2D2A29;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+#contact .contact-section form > div >textarea{
+    resize: none;
+}
+
+#contact .contact-section form button{
+    width:100%;
+    border-radius: 1.56rem;
+    height: 3.12rem;
+}
+
+#contact .contact-info{
+    line-height: 3rem;
+    margin-top:5rem;
+}
+
+#contact .contact-info h1{
+    font-family: myfont-Regular;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+#contact .contact-info-text{
+    margin-bottom: 3rem;
+}
+
+#contact .contact-info{
+    color:#ffffff;
+}
+
+#contact span.contact-info-icon{
+    display:inline-block;
+    width: 1rem;
+    height: .3rem;
+    background-color: #ffffff;
+    margin-right:1rem;
+    margin-bottom:.2rem;
+}
+
+#contact div.contact-info-text{
+    color:#DC9214;
+}
+
+#contact div.contact-info-text .contact-info-icon{
+    background:#DC9214;
+}
+
+#contact .contact-weixin{
+    margin-top:2rem;
+}
+
+#contact .contact-weixin img{
+    margin-right: 3rem;
+}
+
+#contact .contact-footer{
+    margin-top: 6rem;
+    font-family: myFont-Regular;
+    font-size: .875rem;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================
+Media Query
+================================================================================*/
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .my-navbar{
+        padding:0 5rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .my-navbar{
+        padding:0 5rem;
+    }
+
+    #design .design-img img{
+        margin-bottom: 0;
+    }
+
+    #design .design-img .design-img-col2{
+        margin-bottom: 2.3rem;
+    }
+
+    #design .design-img .design-img-left-text{
+        position: absolute;
+        left:1rem;
+        bottom: 0;
+    }
+
+    #design .design-img .design-img-right-text{
+        position: absolute;
+        right:1rem;
+        bottom: 0;
+    }
+
+    #design .design-img-active .design-img-out div{
+        width:12.5rem;
+        height:9.3rem;
+        position: absolute;
+        top:20%;
+        left:25%;
+        font-family: myFont-Regular;
+        font-size: 24px;
+        color: #000000;
+        text-align: center;
+        line-height: 5rem;
+    }
+
+    #design .design-img-active .design-img-col4 div{
+        width:12.5rem;
+        height:9.3rem;
+        position: absolute;
+        top:40%;
+        left:25%;
+        font-family: myFont-Regular;
+        font-size: 24px;
+        color: #000000;
+        text-align: center;
+        line-height: 5rem;
+    }
+
+    #design .design-img-active .design-img-col8  div{
+        width:12.5rem;
+        height:9.3rem;
+        position: absolute;
+        top:26%;
+        font-family: myFont-Regular;
+        font-size: 24px;
+        color: #000000;
+        text-align: center;
+        line-height: 5rem;
+        margin-left:8rem;
+    }
+
+    #contact .contact-info{
+        line-height: 3rem;
+        margin-top:0;
+    }
+
+    #contact{
+        margin-top:3rem;
+    }
+
+ }
+
+
+@media (min-width: 1325px) {
+    .my-navbar{
+        padding:0 7rem;
+    }
+}
+
+
+

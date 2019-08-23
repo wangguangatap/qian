@@ -1,0 +1,1007 @@
+/* ==============================================================================
+currency style
+================================================================================*/
+
+@font-face {
+    font-family: 'myfont-Medium';
+    src: url("../fonts/PingFang Medium_downcc.otf");
+}
+
+@font-face {
+    font-family: 'myfont-Semibold';
+    src: url("../fonts/PingFang SC Semibold.ttf");
+}
+
+@font-face {
+    font-family: 'myfont-Regular';
+    src: url("../fonts/PingFangSCRegular.ttf");
+}
+
+@font-face {
+    font-family: 'myfont-GrandeBold';
+    src: url("../fonts/Lucida Grande Bold.ttf");
+}
+
+.btn-more {
+    color: #FFFFFF;
+    background-color: #D1A247;
+    border: none;
+}
+
+.btn-more:hover,
+.btn-more:focus,
+.btn-more:active,
+.btn-more.active,
+.open .dropdown-toggle.btn-more {
+    color: #FFFFFF;
+    background-color: #D1A247;
+    border: none;
+}
+
+.btn-more:active,
+.btn-more.active,
+.open .dropdown-toggle.btn-more {
+    background-image: none;
+}
+
+.btn-more.disabled,
+.btn-more[disabled],
+fieldset[disabled] .btn-more,
+.btn-more.disabled:hover,
+.btn-more[disabled]:hover,
+fieldset[disabled] .btn-more:hover,
+.btn-more.disabled:focus,
+.btn-more[disabled]:focus,
+fieldset[disabled] .btn-more:focus,
+.btn-more.disabled:active,
+.btn-more[disabled]:active,
+fieldset[disabled] .btn-more:active,
+.btn-more.disabled.active,
+.btn-more[disabled].active,
+fieldset[disabled] .btn-more.active {
+    background-color: #D1A247;
+    border: none;
+}
+
+.btn-more .badge {
+    color: #D1A247;
+    background-color: #FFFFFF;
+}
+
+
+body{
+    font-family: myfont-Medium;
+    overflow-x: hidden;
+}
+
+
+/* ==============================================================================
+Navbar style
+================================================================================*/
+.my-navbar{
+    font-size:1.1rem;
+    padding:0;
+    background-color: #000000!important;
+}
+
+.navbar-brand{
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    top: 1.3rem;
+    z-index: 66;
+    background-color: #000000;
+}
+
+.navbar-brand img{
+    height: 4.375rem;
+    padding-left: .4rem;
+    padding-bottom: .2rem;
+}
+
+.navbar-nav li{
+    padding-right: .4rem;
+}
+
+.navbar-dark .navbar-nav li:not(.active) .nav-link{
+    font-size: 1.125rem;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-item > span{
+    height: 5rem;
+    line-height: 5rem;
+    padding-left: 4.5rem;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    height: 5rem;
+    line-height: 4rem;
+}
+
+.navbar-dark .navbar-nav li.active > a,
+.navbar-dark .navbar-nav .nav-link:hover{
+    font-size: 1.125rem;
+    color: #FFFFFF!important;
+    border-bottom: .25rem solid #D1A247;
+    text-align: center;
+}
+
+
+/* ==============================================================================
+Slider Image
+================================================================================*/
+#my-carousel{
+    opacity: 0.9;
+    background: #000000;
+}
+
+#my-carousel .carousel-inner img{
+    margin: 0 auto;
+}
+.carousel-inner .carousel-item .carousel-caption{
+    position: absolute;
+    top: 10%;
+}
+
+.carousel-inner .carousel-item .carousel-caption h5{
+    font-family: myfont-Regular;
+    font-size: 1.5rem;
+    color: #ffffff;
+    letter-spacing: .7rem;
+    text-align: center;
+    line-height: 1rem;
+    padding-bottom:1rem;
+}
+
+.carousel-inner .carousel-item .carousel-caption p{
+    opacity: 0.8;
+    font-family: myfont-Regular;
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0 .125rem .75rem rgba(0,0,0,0.50);
+    padding-bottom: 2rem;
+}
+
+.carousel-inner .carousel-item .carousel-caption a{
+    width: 4rem;
+    height: 2rem;
+    background: #D1A247;
+    border-radius: .25rem;
+    line-height:1rem;
+    font-size:0.5rem;
+}
+
+
+
+
+
+/* ==============================================================================
+About Us style
+================================================================================*/
+#about{
+    width: 100%;
+    background-color:#FFFFFF;
+}
+
+#about .about-row{
+    max-width: 1366px;
+    margin: 0 auto 3rem;
+}
+
+#about .about-slide-text{
+    margin: 5rem 0rem 2rem 0;
+}
+
+#about .about-slide-text .slide-title{
+    height: 1.56rem;
+    font-family: myfont-Semibold;
+    font-size: 1.12rem;
+    color: #DC9214;
+    margin-bottom: 1.62rem;
+}
+
+#about .about-slide-text .slide-title > span{
+    display: inline-block;
+    width: 1.5rem;
+    height: 0.12rem;
+    background: #D8D8D8;
+    margin-left: 1rem;
+}
+
+#about .about-slide-text h3{
+    font-family: myfont-Semibold;
+    font-size: 2rem;
+    color: #353535;
+    height: 8.43rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#about .about-slide-text p{
+    width: 100%;
+    opacity: 0.63;
+    font-family: myfont-Regular;
+    font-size: 1.12rem;
+    color: #353535;
+    text-align: justify;
+    line-height: 2.25rem;
+    text-indent: 2rem;
+    margin: 0;
+}
+
+#about .about-slide-text .slide-introduction{
+    font-family: myfont-GrandeBold;
+    font-size: 1.43rem;
+    color: #4A4A4A;
+    margin-top: 2rem;
+}
+
+#about .about-slide-text .slide-introduction >span{
+    color: #DC9214;
+    margin-left:0.8rem;
+}
+
+#about .about-slide-text button{
+    background: #FFFFFF;
+    border: 2px solid #E9C37A;
+    margin-top: 1rem;
+    box-shadow: .65rem .65rem .31rem rgba(225,227,220,0.35);
+}
+
+#about .about-slide-col{
+    padding:0;
+}
+
+#about .about-slide-img{
+    position: relative;
+    top: 3rem;
+    left: -4rem;
+}
+
+
+/* ==============================================================================
+Design team style
+================================================================================*/
+#design{
+    max-width:1980px;
+    margin: 8rem auto 8rem;
+}
+
+#design .container-fluid{
+    max-width:1980px;
+    margin:0 auto;
+}
+
+#design .design-left{
+    background: url(../images/design.png) no-repeat center;
+    background-size:100% 100%;
+    height: 46.2rem;
+}
+
+#design .design-right{
+    background: url(../images/cate-bg.png) no-repeat center;
+    background-size:100% 100%;
+    height: 46.2rem;
+    position: relative;
+}
+
+#design .design-right > .row{
+    padding-top:10%;
+}
+
+#design .design-left div{
+    margin-right: 4rem;
+    margin-top: 5rem;
+}
+
+#design .design-left h3{
+    font-family: myFont-Medium;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+#design .design-left .design-left-icon{
+    display:block;
+    width:3rem;
+    height:.3rem;
+    background: #FFFFFF;
+    border-radius: 2.5px;
+    margin-left:5rem;
+    margin-top:1rem;
+}
+
+#design .my_card{
+    width:100%;
+    height: 31rem;
+    padding:0;
+    cursor: pointer;
+}
+
+#design .back,#design .front{
+    overflow: hidden;
+    backface-visibility: hidden;
+    position:absolute;
+    width:100%;
+    height:100%;
+    transition: transform .5s linear;
+}
+
+#design .back{
+    transform: perspective(40rem) rotateY(180deg);
+}
+
+#design .front{
+    transform: perspective(40rem) rotateY(0deg);
+}
+
+#design .my_card:hover > .front{
+    transform: perspective(40rem) rotateY(-180deg);
+}
+
+#design .my_card:hover > .back{
+    transform: perspective(40rem) rotateY(0deg);
+}
+
+#design img{
+    width:100%;
+    height:100%;
+}
+
+#design .my_card_content{
+   z-index:8;
+   position: absolute;
+   bottom: 3rem;
+   left: 2.5rem;
+   color:#FFFFFF;
+}
+
+#design .my_card_content span{
+    display: inline-block;
+    height:.2rem;
+    width:3rem;
+    background: #FFFFFF;
+}
+
+
+
+
+
+
+
+/* ==============================================================================
+service style
+================================================================================*/
+#service{
+    margin-top:3rem;
+}
+
+#service .service-leader,#service .service-card{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+#service .service-card{
+    margin-top: 3rem;
+}
+
+#service .service-tile h2{
+    font-family: myfont-Semibold;
+    font-weight: 200;
+    font-size: 1.8rem;
+    color:#000000;
+}
+
+#service .service-tile span{
+    display:inline-block;
+    width: 3.12rem;
+    height: .2rem;
+    background-color: #E9C37A;
+}
+
+#service .service-tile-content p{
+    font-family: myfont-Regular;
+    line-height: 1.8rem;
+    color: gray;
+}
+
+#service .my-card{
+    height: 23.8rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    position: relative;
+    background: url(../images/card.png) no-repeat left;
+    background-size:100% 100%;
+    border-radius: 2px;
+    box-shadow: .25rem .25rem .6rem #000000;
+}
+
+#service .my-card .my-card-warpper{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: linear-gradient(-177deg, rgba(0,0,0,0.00) 68%, #000000 100%);
+    border-radius: 2px;
+}
+
+#service .my-card .my-card-content{
+    position: absolute;
+    bottom: 1.5rem;
+    z-index: 20;
+    margin: 0 1rem;
+}
+
+#service .my-card .my-card-content h4{
+    font-family: myfont-Semibold;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+#service .my-card .my-card-content p{
+    opacity: 0.64;
+    font-family: myfont-Regular;
+    color: #FFFFFF;
+    font-size: 0.87rem;
+}
+
+#service .my-card .my-card-content .my-card-date{
+    display: none;
+}
+
+#service .my-card span{
+    display: none;
+}
+
+#service .my-card-active h4{
+    text-align: center;
+}
+
+#service .my-card-active .my-card-content{
+    position: absolute;
+    top: 5rem;
+    left: 10%;
+    right: 10%;
+    z-index: 20;
+}
+
+#service .my-card-active .my-card-content .my-card-date{
+    text-align:center;
+    display: block;
+}
+
+#service .my-card-active span.my-card-icon{
+    display: block;
+    width: 1rem;
+    height: 1.8rem;
+    border: .125rem solid rgba(255,255,255,0.6);
+    border-radius: 40%;
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+}
+
+#service .my-card-active span.my-card-icon >span{
+    display: block;
+    width: 2px;
+    height: 2px;
+    border:3px solid rgba(255,255,255,0.6);
+    border-radius: 50%;
+    margin:.3rem auto 0;
+}
+
+
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+        }
+    50% {
+        opacity: 0;
+        }
+    100% {
+        opacity: 1;
+        }
+}
+
+#service .my-card-active .my-card-content,
+#service .my-card-active .my-card-icon{
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.7s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+}
+
+
+
+/* ==============================================================================
+Team style
+================================================================================*/
+#team{
+    max-width:1980px;
+    margin:0 auto;
+}
+
+#team .container-fluid{
+    padding:0;
+}
+
+#team .row .col-md-12,#team .row .col-lg-3{
+    padding:0;
+}
+
+#team .team-container-width .row{
+    position: relative;
+}
+
+#team .team-container-width .row .col-md-12{
+    height: 260px;
+    border-left:2px solid rgba(0,0,0,0.3);
+}
+
+#team .team-container-width .row:last-child{
+    border-right:2px solid rgba(0,0,0,0.3);
+}
+
+#team .team-up-border{
+    border-bottom: 2px solid rgba(0,0,0,0.3);
+}
+
+#team .team-up .team-container-width{
+    max-width:1366px;
+    margin:0 auto;
+    height:16.25rem;
+}
+
+#team .team-up .team-up-img{
+    max-width:1366px;
+    margin:0 auto;
+    height:100%;
+}
+
+#team .team-up-title{
+    position: absolute;
+    top: 7.8rem;
+    left: 87%;
+    width: 15rem;
+    font-family: myFont-Medium;
+    font-size: 2rem;
+    color: #FFFFFF;
+    z-index: 6;
+}
+
+#team .team-up-title >span,#team .card span{
+    display: block;
+    width: 3.4rem;
+    height: .3rem;
+    background: #E9C37A;
+    border-radius: 2.5px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+#team .card{
+    background: #000000;
+    border-radius: 0!important;
+    padding:5rem 2rem 2rem;
+    height:100%;
+    line-height: 3rem;
+}
+
+#team .card h5{
+    font-family: myFont-Medium;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+#team .card span{
+   margin-left:8.8rem;
+}
+
+#team .card-text{
+    color:rgb(90, 90, 90);
+}
+
+#team .team-up-img img,#team .team-down img{
+    width:100%;
+    height: 100%;
+    border:1px solid rgba(0,0,0,0.3)
+}
+
+#team .team-down{
+    max-width:1366px;
+    margin:0 auto;
+}
+
+#team .team-down-border{
+   border-bottom: 2px solid rgba(0,0,0,0.3);
+}
+
+#team .team-down-none >.container-fluid{
+    max-width: 1366px;
+}
+
+#team .team-down-none,#team .team-down-none > .container-fluid >.row{
+    height:10.6rem;
+}
+
+#team .team-down-none > .container-fluid >.row:last-child{
+    border-right:2px solid rgba(0,0,0,0.3);
+}
+
+#team .team-down-none .col-lg-3{
+    border-left: 2px solid rgba(0,0,0,0.3);
+}
+
+#team .team-active-img{
+    position: relative;
+}
+
+#team .team-active-img h4{
+    position: absolute;
+    left:10%;
+    bottom:15%;
+    color: #000000;
+    font-weight: bolder;
+    font-family: myfont-Semibold;
+    font-size: 2rem;
+}
+#team .team-active-img > div{
+    display:none;
+}
+
+#team .teamimg-active::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right:0;
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    height:100%;
+}
+
+#team .teamimg-active h4{
+   display: none;
+}
+
+
+
+#team .teamimg-active > div > span{
+    display: block;
+    height: .12rem;
+    width: 2rem;
+    background: #ffffff;
+    margin:0 0 2rem 3.8rem;
+}
+
+#team .teamimg-active >div{
+    display: block;
+    position: absolute;
+    top: 40%;
+    left:40%;
+    font-size: 2rem;
+    color: #ffffff;
+    width: 9.3rem;
+    height: 10.6rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+
+/* ==============================================================================
+Contact Us style
+================================================================================*/
+#contact .contact-warpper{
+    max-width:1980px;
+    background: url(../images/footer-bg.png) no-repeat center;
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+
+#contact .contact-section{
+    max-width:1360px;
+    margin:0 auto;
+    padding:8rem 0 0 0;
+}
+
+#contact .contact-row{
+    margin-left:6rem;
+}
+
+#contact .contact-section h3{
+    font-family: myFont-Medium;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#contact .contact-section form{
+    width: 28rem;
+}
+
+#contact .contact-section form > div >input,#contact .contact-section form > div >textarea{
+    border-radius: 0;
+    background-color: rgba(30,30,30,0.5);;
+    border-color:#2D2A29;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+#contact .contact-section form > div >textarea{
+    resize: none;
+}
+
+#contact .contact-section form button{
+    width:100%;
+    border-radius: 1.56rem;
+    height: 3.12rem;
+}
+
+#contact .contact-info{
+    line-height: 3rem;
+    margin-top:5rem;
+}
+
+#contact .contact-info h1{
+    font-family: myfont-Regular;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+#contact .contact-info-text{
+    margin-bottom: 3rem;
+}
+
+#contact .contact-info{
+    color:#ffffff;
+}
+
+#contact span.contact-info-icon{
+    display:inline-block;
+    width: 1rem;
+    height: .3rem;
+    background-color: #ffffff;
+    margin-right:1rem;
+    margin-bottom:.2rem;
+}
+
+#contact div.contact-info-text{
+    color:#DC9214;
+}
+
+#contact div.contact-info-text .contact-info-icon{
+    background:#DC9214;
+}
+
+#contact .contact-weixin{
+    margin-top:2rem;
+}
+
+#contact .contact-weixin img{
+    margin-right: 3rem;
+}
+
+#contact .contact-footer{
+    margin-top: 6rem;
+    font-family: myFont-Regular;
+    font-size: .875rem;
+    color: #FFFFFF;
+}
+
+
+/* ==============================================================================
+Media Query
+================================================================================*/
+
+@media (min-width: 576px) {
+    .carousel-inner .carousel-item .carousel-caption{
+        position: absolute;
+        top: 15%;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 1.4rem;
+        letter-spacing: 1.3rem;
+        line-height: 1.4rem;
+        padding-bottom:1.7rem;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 0.9rem;
+        text-shadow: 0 .125rem .75rem rgba(0,0,0,0.50);
+        padding-bottom: 1.5rem;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption a{
+        width: 6rem;
+        height: 1.7rem;
+        background: #D1A247;
+        border-radius: .25rem;
+        line-height: 0.7rem;
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item .carousel-caption{
+        position: absolute;
+        top: 15%;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 2rem;
+        letter-spacing: 1.5rem;
+        line-height: 4.6rem;
+        padding-bottom:1.7rem;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 1.2rem;
+        text-shadow: 0 .125rem .75rem rgba(0,0,0,0.50);
+        padding-bottom: 3rem;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption a{
+        width: 8rem;
+        height: 2.2rem;
+        background: #D1A247;
+        border-radius: .25rem;
+        line-height: 1rem;
+        font-size: 1rem;
+    }
+
+    .my-navbar{
+        padding:0 5rem;
+    }
+
+    #team .teamimg-active >div{
+        display: block;
+        position: absolute;
+        top: 30%;
+        left:28%;
+        font-size: 2rem;
+        color: #ffffff;
+        width: 9.3rem;
+        height: 10.6rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .carousel-inner .carousel-item .carousel-caption{
+        position: absolute;
+        top: 15%;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 2.5rem;
+        letter-spacing: 2rem;
+        line-height: 4.6rem;
+        padding-bottom:1.7rem;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 1.6rem;
+        text-shadow: 0 .125rem .75rem rgba(0,0,0,0.50);
+        padding-bottom: 3rem;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption a{
+        width: 8rem;
+        height: 2.2rem;
+        background: #D1A247;
+        border-radius: .25rem;
+        line-height: 1rem;
+        font-size: 1rem;
+    }
+
+    .my-navbar{
+        padding:0 5rem;
+    }
+
+    #about .about-row{
+        margin-bottom: 5rem;
+    }
+
+    #about .about-slide-text{
+        padding-top:5rem;
+    }
+
+    #about .about-slide-img{
+        position: relative;
+        top: 3rem;
+        left: 4rem;;
+    }
+
+
+    #service .service-card{
+        margin-top: 3rem;
+        margin-bottom: 9.3rem;
+    }
+    #design .design-right-slider-warpper .col-md-12{
+        padding:0 15px;
+    }
+
+    #team .team-up{
+        background:url(../images/team-bg.png) no-repeat center;
+        background-size:100% 100%;
+        position: relative;
+    }
+
+    #team .team-up::before{
+        content:'';
+        position: absolute;
+        width:100%;
+        height:100%;
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    #team .teamimg-active >div{
+        display: block;
+        position: absolute;
+        top: 28%;
+        left:25%;
+        font-size: 2rem;
+        color: #ffffff;
+        width: 9.3rem;
+        height: 10.6rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    #contact .contact-info{
+        line-height: 3rem;
+        margin-top:0;
+    }
+
+
+ }
+
+
+@media (min-width: 1325px) {
+    .carousel-inner .carousel-item .carousel-caption{
+        position: absolute;
+        top: 30%;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption h5{
+        font-family: myfont-Regular;
+        font-size: 3.3rem;
+        color: #ffffff;
+        letter-spacing: 2.87rem;
+        text-align: center;
+        line-height: 4.6rem;
+        padding-bottom:2rem;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption p{
+        opacity: 0.8;
+        font-family: PingFangSC-Regular;
+        font-size: 2.12rem;
+        color: #FFFFFF;
+        text-align: center;
+        text-shadow: 0 .125rem .75rem rgba(0,0,0,0.50);
+        padding-bottom: 3rem;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption a{
+        width: 12rem;
+        height: 2.8rem;
+        background: #D1A247;
+        border-radius: .25rem;
+        line-height:1.8rem;
+    }
+    .my-navbar{
+        padding:0 7rem;
+    }
+}
